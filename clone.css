@@ -1,0 +1,98 @@
+
+.child{
+    border: 3px solid red;
+    padding: 2rem;
+}
+
+.navbar-nav .nav-item{
+    margin-left: 2rem;
+}
+
+.carousel-item {
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 500px;
+}
+
+@media(min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl{
+        max-width: 1293px;
+    }
+}
+
+
+@media(min-width: 1200px){
+    #arrival .container,  #arrival.container-lg,  #arrival.container-md,  #arrival.container-sm,  #arrival.container-xl{
+        max-width: 893px;
+    }
+}
+.carousel-caption{
+    bottom: 6.25rem;
+}
+
+.carousel-caption h2{
+    font-size: 5rem;
+}
+
+.btn-style{
+    padding: 1rem 3rem;
+    border-radius:1px;
+}
+
+/*Product section */
+
+#products{
+    margin-top: 2rem;
+}
+
+.cardstyle{
+    border: none;
+    margin-top: 3rem;
+}
+
+.about{
+    background-image: url("./image/fashionistaa.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 2rem;
+}
+
+.about-caption{
+    text-align: center;
+    padding-top: 12rem;
+}
+
+.singlecol{
+    position: relative;
+
+}
+
+.caption{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.caption p{
+    font-size: 2.5rem;
+}
+
+footer{
+    background-color:#1D2547 ;
+}
+
+.columnc p{
+    color: #C2C5DB;
+    font-size: 14px;
+}
+.columnc ul{
+    list-style: none;
+    padding: 0;
+}
+
+.columnc ul li{
+    padding-bottom: 1rem;
+}
